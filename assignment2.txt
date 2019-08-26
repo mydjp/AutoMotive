@@ -1,0 +1,30 @@
+polyCube -w 14.5 -h .3 -d 1.6 -sx 20 -sy 1 -sz 2 -ax 0 1 0 -cuv 4 -ch 1;
+
+polyCylinder -r .6 -h 5 -sx 20 -sy 3 -sz 1 -ax 0 1 0 -rcp 0 -cuv 3 -ch 1;
+move -r 7.513 0 0 ;
+rotate -r -os -fo -90 0 0 ;
+select -r pCylinder1.f[28:29] ;
+polyExtrudeFacet -constructionHistory 1 -keepFacesTogether 1 -pvx 6.927682895 -pvy 0 -pvz 5.960464478e-08 -divisions 1 -twist 0 -taper 1 -off 0 -thickness 0 -smoothingAngle 30 pCylinder1.f[28:29];
+setAttr "polyExtrudeFace1.localTranslate" -type double3 0 0 -0.241387 ;
+
+polyCylinder -r .55 -h 7 -sx 20 -sy 10 -sz 1 -ax 0 1 0 -rcp 0 -cuv 3 -ch 1;
+rotate -r -os -fo 0 0 -90 ;
+move -r 11.1 0 0 ;
+select -r pCylinder2.f[168] ;
+select -tgl pCylinder2.f[169] ;
+select -add pCylinder2.f[160:179] ;
+select -tgl pCylinder2.f[128] ;
+select -tgl pCylinder2.f[129] ;
+select -add pCylinder2.f[120:139] ;
+select -tgl pCylinder2.f[88] ;
+select -tgl pCylinder2.f[89] ;
+select -add pCylinder2.f[80:99] ;
+select -tgl pCylinder2.f[49] ;
+select -tgl pCylinder2.f[50] ;
+select -add pCylinder2.f[40:59] ;
+hilite pCylinder2.f[40:59] pCylinder2.f[80:99] pCylinder2.f[120:139] pCylinder2.f[160:179] ;
+selectMode -component ;
+select -r pCylinder2.f[40:59] pCylinder2.f[80:99] pCylinder2.f[120:139] pCylinder2.f[160:179] ;
+polyExtrudeFacet -constructionHistory 1 -keepFacesTogether 1 -pvx 11.45000014 -pvy 5.960464489e-08 -pvz -8.940696716e-08 -divisions 1 -twist 0 -taper 1 -off 0 -thickness 0 -smoothingAngle 30 pCylinder2.f[40:59] pCylinder2.f[80:99] pCylinder2.f[120:139] pCylinder2.f[160:179];
+// Result: polyExtrudeFace2 // 
+setAttr "polyExtrudeFace2.localTranslate" -type double3 0 0 0.0502855 ;
