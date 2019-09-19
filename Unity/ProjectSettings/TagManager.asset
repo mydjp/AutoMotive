@@ -15,6 +15,7 @@ TagManager:
   - Head
   - Testee
   - testaroo
+  - ReverseGear
   layers:
   - Default
   - TransparentFX

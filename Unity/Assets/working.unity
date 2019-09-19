@@ -205,7 +205,6 @@ GameObject:
   - component: {fileID: 13086556}
   - component: {fileID: 13086555}
   - component: {fileID: 13086554}
-  - component: {fileID: 13086553}
   - component: {fileID: 13086552}
   m_Layer: 0
   m_Name: 74. Clutch_Gear
@@ -248,19 +247,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &13086553
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 13086550}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &13086554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,8 +339,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: 0, y: -0.00000023841858, z: 0}
 --- !u!23 &13086559
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -493,7 +479,6 @@ GameObject:
   - component: {fileID: 54287569}
   - component: {fileID: 54287568}
   - component: {fileID: 54287567}
-  - component: {fileID: 54287566}
   - component: {fileID: 54287565}
   m_Layer: 0
   m_Name: 81. O_Ring_Retainers
@@ -536,19 +521,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &54287566
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54287563}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &54287567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,7 +613,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &54287572
 MeshRenderer:
@@ -704,7 +676,6 @@ GameObject:
   - component: {fileID: 60667538}
   - component: {fileID: 60667537}
   - component: {fileID: 60667536}
-  - component: {fileID: 60667535}
   - component: {fileID: 60667534}
   m_Layer: 0
   m_Name: 23. Struts
@@ -747,19 +718,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &60667535
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 60667532}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &60667536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -852,8 +810,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &60667541
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1126,7 +1084,6 @@ GameObject:
   - component: {fileID: 103747160}
   - component: {fileID: 103747159}
   - component: {fileID: 103747158}
-  - component: {fileID: 103747157}
   - component: {fileID: 103747156}
   m_Layer: 0
   m_Name: 31. Roller
@@ -1169,19 +1126,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &103747157
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103747154}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &103747158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1274,7 +1218,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &103747163
 MeshRenderer:
@@ -1337,7 +1281,6 @@ GameObject:
   - component: {fileID: 108526534}
   - component: {fileID: 108526533}
   - component: {fileID: 108526532}
-  - component: {fileID: 108526531}
   - component: {fileID: 108526530}
   m_Layer: 0
   m_Name: 24. Spring
@@ -1380,19 +1323,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &108526531
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108526528}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &108526532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1485,8 +1415,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &108526537
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1548,7 +1478,6 @@ GameObject:
   - component: {fileID: 109832389}
   - component: {fileID: 109832388}
   - component: {fileID: 109832387}
-  - component: {fileID: 109832386}
   - component: {fileID: 109832385}
   m_Layer: 0
   m_Name: 21. Spring
@@ -1591,19 +1520,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &109832386
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 109832383}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &109832387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1696,7 +1612,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &109832392
 MeshRenderer:
@@ -1880,7 +1796,6 @@ GameObject:
   - component: {fileID: 116769120}
   - component: {fileID: 116769119}
   - component: {fileID: 116769118}
-  - component: {fileID: 116769117}
   - component: {fileID: 116769116}
   m_Layer: 0
   m_Name: 52. Housing
@@ -1923,19 +1838,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &116769117
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 116769114}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &116769118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2028,7 +1930,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &116769123
 MeshRenderer:
@@ -2091,7 +1993,6 @@ GameObject:
   - component: {fileID: 141933229}
   - component: {fileID: 141933228}
   - component: {fileID: 141933227}
-  - component: {fileID: 141933226}
   - component: {fileID: 141933225}
   m_Layer: 0
   m_Name: 4.Sleeve
@@ -2134,19 +2035,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &141933226
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 141933223}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &141933227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2239,7 +2127,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.21554862, y: 0.1, z: 0.2155488}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &141933232
 MeshRenderer:
@@ -2302,7 +2190,6 @@ GameObject:
   - component: {fileID: 147517097}
   - component: {fileID: 147517096}
   - component: {fileID: 147517095}
-  - component: {fileID: 147517094}
   - component: {fileID: 147517093}
   m_Layer: 0
   m_Name: 30. Washer
@@ -2345,19 +2232,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &147517094
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 147517091}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &147517095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2450,8 +2324,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &147517100
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2634,7 +2508,6 @@ GameObject:
   - component: {fileID: 164017636}
   - component: {fileID: 164017635}
   - component: {fileID: 164017634}
-  - component: {fileID: 164017633}
   - component: {fileID: 164017632}
   m_Layer: 0
   m_Name: 60. Lever
@@ -2677,19 +2550,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &164017633
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164017630}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &164017634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2782,7 +2642,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &164017639
 MeshRenderer:
@@ -2877,7 +2737,6 @@ GameObject:
   - component: {fileID: 179935938}
   - component: {fileID: 179935937}
   - component: {fileID: 179935936}
-  - component: {fileID: 179935935}
   - component: {fileID: 179935934}
   m_Layer: 0
   m_Name: 5.Struts
@@ -2920,19 +2779,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &179935935
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 179935932}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &179935936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3025,7 +2871,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.20000009, y: 0.1, z: 0.2000002}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &179935941
 MeshRenderer:
@@ -3088,7 +2934,6 @@ GameObject:
   - component: {fileID: 192448930}
   - component: {fileID: 192448929}
   - component: {fileID: 192448928}
-  - component: {fileID: 192448927}
   - component: {fileID: 192448926}
   m_Layer: 0
   m_Name: 54. Nut_Locking
@@ -3131,19 +2976,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &192448927
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192448924}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &192448928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3236,8 +3068,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &192448933
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3346,7 +3178,6 @@ GameObject:
   - component: {fileID: 241711137}
   - component: {fileID: 241711136}
   - component: {fileID: 241711135}
-  - component: {fileID: 241711134}
   - component: {fileID: 241711133}
   m_Layer: 0
   m_Name: 43. Snap_Ring
@@ -3389,19 +3220,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &241711134
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 241711131}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &241711135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3494,7 +3312,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &241711140
 MeshRenderer:
@@ -3557,7 +3375,6 @@ GameObject:
   - component: {fileID: 245273451}
   - component: {fileID: 245273450}
   - component: {fileID: 245273449}
-  - component: {fileID: 245273448}
   - component: {fileID: 245273447}
   m_Layer: 0
   m_Name: 40. Gasket
@@ -3600,19 +3417,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &245273448
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 245273445}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &245273449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3705,8 +3509,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: 0, y: -0.000000007450581, z: 0}
 --- !u!23 &245273454
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3768,7 +3572,6 @@ GameObject:
   - component: {fileID: 295257194}
   - component: {fileID: 295257193}
   - component: {fileID: 295257192}
-  - component: {fileID: 295257191}
   - component: {fileID: 295257190}
   m_Layer: 0
   m_Name: 37. Roller
@@ -3811,19 +3614,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &295257191
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295257188}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &295257192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3916,7 +3706,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &295257197
 MeshRenderer:
@@ -4056,7 +3846,6 @@ GameObject:
   - component: {fileID: 306348668}
   - component: {fileID: 306348667}
   - component: {fileID: 306348666}
-  - component: {fileID: 306348665}
   - component: {fileID: 306348664}
   m_Layer: 0
   m_Name: 68. Idle_Gear
@@ -4099,19 +3888,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &306348665
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306348662}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &306348666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4204,7 +3980,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &306348671
 MeshRenderer:
@@ -4267,7 +4043,6 @@ GameObject:
   - component: {fileID: 309227766}
   - component: {fileID: 309227765}
   - component: {fileID: 309227764}
-  - component: {fileID: 309227763}
   - component: {fileID: 309227762}
   m_Layer: 0
   m_Name: 73. Plug_Filler
@@ -4310,19 +4085,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &309227763
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 309227760}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &309227764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4415,7 +4177,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &309227769
 MeshRenderer:
@@ -4547,7 +4309,6 @@ GameObject:
   - component: {fileID: 320296818}
   - component: {fileID: 320296817}
   - component: {fileID: 320296816}
-  - component: {fileID: 320296815}
   - component: {fileID: 320296814}
   m_Layer: 0
   m_Name: 27. Shaft_Output
@@ -4590,19 +4351,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &320296815
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320296812}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &320296816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4695,8 +4443,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.054839462, y: 0.59788597, z: 0.054839432}
+  m_Center: {x: -0.000000057742, y: -0.0010570737, z: -9.313226e-10}
 --- !u!23 &320296821
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4758,7 +4506,6 @@ GameObject:
   - component: {fileID: 330235880}
   - component: {fileID: 330235879}
   - component: {fileID: 330235878}
-  - component: {fileID: 330235877}
   - component: {fileID: 330235876}
   m_Layer: 0
   m_Name: 64. Washer
@@ -4801,19 +4548,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &330235877
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 330235874}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &330235878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4906,7 +4640,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &330235883
 MeshRenderer:
@@ -4953,6 +4687,128 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330235874}
   m_Mesh: {fileID: 4300100, guid: 15247e49edd49924cb57dfd0f8a68ef1, type: 3}
+--- !u!1 &331100802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 331100808}
+  - component: {fileID: 331100807}
+  - component: {fileID: 331100806}
+  - component: {fileID: 331100805}
+  - component: {fileID: 331100804}
+  - component: {fileID: 331100803}
+  m_Layer: 0
+  m_Name: Template_SZ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &331100803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331100802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed2aa1a29b92ca4f84a26a5f6e9218b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  operation: 1
+  checkType: 1
+  identifiers:
+  - ReverseGear
+--- !u!114 &331100804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331100802}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dc366c4ab9b63a4dad97fc1290dc00a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  unhighlightOnDisable: 1
+  emissionDarken: 50
+  customMaterial: {fileID: 0}
+--- !u!114 &331100805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331100802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa31935730602684ca098655260a7c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightObjectPrefab: {fileID: 100000, guid: b17dfe7065f4261408c0698fdf4f6c47,
+    type: 3}
+  snapType: 0
+  snapDuration: 0.3
+  applyScalingOnSnap: 1
+  cloneNewOnUnsnap: 0
+  highlightColor: {r: 1, g: 0, b: 0, a: 0}
+  validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
+  highlightAlwaysActive: 1
+  validObjectListPolicy: {fileID: 331100803}
+  displayDropZoneInEditor: 1
+  defaultSnappedInteractableObject: {fileID: 0}
+  defaultSnappedObject: {fileID: 0}
+--- !u!54 &331100806
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331100802}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &331100807
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331100802}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.025, y: 0.025, z: 0.025}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &331100808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331100802}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.09, y: 0.68, z: 6.69}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1550091041}
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &352664558
 GameObject:
   m_ObjectHideFlags: 0
@@ -4969,7 +4825,6 @@ GameObject:
   - component: {fileID: 352664564}
   - component: {fileID: 352664563}
   - component: {fileID: 352664562}
-  - component: {fileID: 352664561}
   - component: {fileID: 352664560}
   m_Layer: 0
   m_Name: 79. O_Ring
@@ -5012,19 +4867,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &352664561
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 352664558}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &352664562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5117,7 +4959,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &352664567
 MeshRenderer:
@@ -5212,7 +5054,6 @@ GameObject:
   - component: {fileID: 370948716}
   - component: {fileID: 370948715}
   - component: {fileID: 370948714}
-  - component: {fileID: 370948713}
   - component: {fileID: 370948712}
   m_Layer: 0
   m_Name: 75. Clutch_Gear
@@ -5255,19 +5096,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &370948713
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370948710}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &370948714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5360,8 +5188,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &370948719
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5423,7 +5251,6 @@ GameObject:
   - component: {fileID: 382450057}
   - component: {fileID: 382450056}
   - component: {fileID: 382450055}
-  - component: {fileID: 382450054}
   - component: {fileID: 382450053}
   m_Layer: 0
   m_Name: 36. Washer
@@ -5466,19 +5293,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &382450054
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 382450051}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &382450055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5571,8 +5385,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: -0.0000009536743, z: 0}
 --- !u!23 &382450060
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5787,7 +5601,6 @@ GameObject:
   - component: {fileID: 426555434}
   - component: {fileID: 426555433}
   - component: {fileID: 426555432}
-  - component: {fileID: 426555431}
   - component: {fileID: 426555430}
   m_Layer: 0
   m_Name: 25. Ring
@@ -5830,19 +5643,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &426555431
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 426555428}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &426555432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5935,8 +5735,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &426555437
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5998,7 +5798,6 @@ GameObject:
   - component: {fileID: 439408906}
   - component: {fileID: 439408905}
   - component: {fileID: 439408904}
-  - component: {fileID: 439408903}
   - component: {fileID: 439408902}
   m_Layer: 0
   m_Name: 10.Bearing
@@ -6041,19 +5840,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &439408903
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 439408900}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &439408904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6146,7 +5932,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.20000009, y: 0.1, z: 0.2000002}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &439408909
 MeshRenderer:
@@ -6330,7 +6116,6 @@ GameObject:
   - component: {fileID: 452102802}
   - component: {fileID: 452102801}
   - component: {fileID: 452102800}
-  - component: {fileID: 452102799}
   - component: {fileID: 452102798}
   m_Layer: 0
   m_Name: 17. Seal
@@ -6373,19 +6158,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &452102799
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 452102796}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &452102800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6478,7 +6250,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.21554862, y: 0.20300467, z: 0.2155488}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &452102805
 MeshRenderer:
@@ -6541,7 +6313,6 @@ GameObject:
   - component: {fileID: 477715255}
   - component: {fileID: 477715254}
   - component: {fileID: 477715253}
-  - component: {fileID: 477715252}
   - component: {fileID: 477715251}
   m_Layer: 0
   m_Name: 58. Gasket
@@ -6584,19 +6355,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &477715252
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 477715249}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &477715253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6689,7 +6447,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &477715258
 MeshRenderer:
@@ -6758,7 +6516,6 @@ GameObject:
   - component: {fileID: 484301440}
   - component: {fileID: 484301439}
   - component: {fileID: 484301438}
-  - component: {fileID: 484301437}
   - component: {fileID: 484301436}
   m_Layer: 0
   m_Name: 77. Gasket
@@ -6801,19 +6558,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &484301437
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484301434}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &484301438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6906,7 +6650,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &484301443
 MeshRenderer:
@@ -6969,7 +6713,6 @@ GameObject:
   - component: {fileID: 490169538}
   - component: {fileID: 490169537}
   - component: {fileID: 490169536}
-  - component: {fileID: 490169535}
   - component: {fileID: 490169534}
   m_Layer: 0
   m_Name: 80. O_Ring_Retainers
@@ -7012,19 +6755,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &490169535
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 490169532}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &490169536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7117,7 +6847,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &490169541
 MeshRenderer:
@@ -7180,7 +6910,6 @@ GameObject:
   - component: {fileID: 517958412}
   - component: {fileID: 517958411}
   - component: {fileID: 517958410}
-  - component: {fileID: 517958409}
   - component: {fileID: 517958408}
   m_Layer: 0
   m_Name: 76. Key
@@ -7223,19 +6952,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &517958409
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 517958406}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &517958410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7328,8 +7044,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: 0, y: -0.0000009536743, z: 0}
 --- !u!23 &517958415
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7391,7 +7107,6 @@ GameObject:
   - component: {fileID: 519099279}
   - component: {fileID: 519099278}
   - component: {fileID: 519099277}
-  - component: {fileID: 519099276}
   - component: {fileID: 519099275}
   m_Layer: 0
   m_Name: 33. CounterShaft
@@ -7434,19 +7149,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &519099276
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519099273}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &519099277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7539,8 +7241,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: -0.0000009536743, z: 0}
 --- !u!23 &519099282
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7602,7 +7304,6 @@ GameObject:
   - component: {fileID: 525181298}
   - component: {fileID: 525181297}
   - component: {fileID: 525181296}
-  - component: {fileID: 525181295}
   - component: {fileID: 525181294}
   m_Layer: 0
   m_Name: First_Gear
@@ -7631,19 +7332,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &525181295
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 525181293}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &525181296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7736,7 +7424,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.10617485, y: 0.047686305, z: 0.10617484}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &525181301
 MeshRenderer:
@@ -7814,7 +7502,6 @@ GameObject:
   - component: {fileID: 548161902}
   - component: {fileID: 548161901}
   - component: {fileID: 548161900}
-  - component: {fileID: 548161899}
   - component: {fileID: 548161898}
   m_Layer: 0
   m_Name: 13.Retainer
@@ -7857,19 +7544,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &548161899
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 548161896}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &548161900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7962,8 +7636,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.20000002, y: 0.1, z: 0.20000006}
+  m_Center: {x: 0.000000011175871, y: 0, z: 0.000000014901161}
 --- !u!23 &548161905
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8025,7 +7699,6 @@ GameObject:
   - component: {fileID: 560140164}
   - component: {fileID: 560140163}
   - component: {fileID: 560140162}
-  - component: {fileID: 560140161}
   - component: {fileID: 560140160}
   m_Layer: 0
   m_Name: 35. Roller
@@ -8068,19 +7741,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &560140161
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560140158}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &560140162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8173,8 +7833,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &560140167
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8236,7 +7896,6 @@ GameObject:
   - component: {fileID: 593224548}
   - component: {fileID: 593224547}
   - component: {fileID: 593224546}
-  - component: {fileID: 593224545}
   - component: {fileID: 593224544}
   m_Layer: 0
   m_Name: 78. O_Ring
@@ -8279,19 +7938,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &593224545
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 593224542}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &593224546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8384,7 +8030,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &593224551
 MeshRenderer:
@@ -8431,69 +8077,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593224542}
   m_Mesh: {fileID: 4300100, guid: 15247e49edd49924cb57dfd0f8a68ef1, type: 3}
---- !u!1001 &597484365
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1701046194}
-    m_Modifications:
-    - target: {fileID: 100000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
-      propertyPath: m_Name
-      value: reverse gear import
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
---- !u!4 &597484366 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: b17dfe7065f4261408c0698fdf4f6c47,
-    type: 3}
-  m_PrefabInstance: {fileID: 597484365}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &600132258
 GameObject:
   m_ObjectHideFlags: 0
@@ -8708,7 +8291,6 @@ GameObject:
   - component: {fileID: 638166106}
   - component: {fileID: 638166105}
   - component: {fileID: 638166104}
-  - component: {fileID: 638166103}
   - component: {fileID: 638166102}
   m_Layer: 0
   m_Name: 38. Washer
@@ -8751,19 +8333,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &638166103
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 638166100}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &638166104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8856,8 +8425,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: 0, y: -0.0000009536743, z: 0}
 --- !u!23 &638166109
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8964,11 +8533,10 @@ GameObject:
   - component: {fileID: 668334492}
   - component: {fileID: 668334491}
   - component: {fileID: 668334490}
-  - component: {fileID: 668334489}
   - component: {fileID: 668334488}
   m_Layer: 0
   m_Name: 8.Bushing
-  m_TagString: test
+  m_TagString: ReverseGear
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9007,19 +8575,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &668334489
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 668334486}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &668334490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9112,7 +8667,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.10617485, y: 0.047686305, z: 0.10617484}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &668334495
 MeshRenderer:
@@ -9131,7 +8686,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d921d58463e1b1947b93276dc5d60979, type: 2}
+  - {fileID: 2100000, guid: 2f940703e4a9c494e9fb863341d0e669, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9158,7 +8714,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 668334486}
-  m_Mesh: {fileID: 4300084, guid: 15247e49edd49924cb57dfd0f8a68ef1, type: 3}
+  m_Mesh: {fileID: 4300000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
 --- !u!1 &743777618
 GameObject:
   m_ObjectHideFlags: 0
@@ -9252,7 +8808,6 @@ GameObject:
   - component: {fileID: 751941884}
   - component: {fileID: 751941883}
   - component: {fileID: 751941882}
-  - component: {fileID: 751941881}
   - component: {fileID: 751941880}
   m_Layer: 0
   m_Name: 53. Lever
@@ -9295,19 +8850,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &751941881
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 751941878}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &751941882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9400,8 +8942,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &751941887
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9463,7 +9005,6 @@ GameObject:
   - component: {fileID: 755749208}
   - component: {fileID: 755749207}
   - component: {fileID: 755749206}
-  - component: {fileID: 755749205}
   - component: {fileID: 755749204}
   m_Layer: 0
   m_Name: 16.Bushing
@@ -9506,19 +9047,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &755749205
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 755749202}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &755749206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9611,8 +9139,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.20000002, y: 0.1, z: 0.20000006}
+  m_Center: {x: 0.000000011175871, y: 0, z: 0.000000014901161}
 --- !u!23 &755749211
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9674,7 +9202,6 @@ GameObject:
   - component: {fileID: 773805183}
   - component: {fileID: 773805182}
   - component: {fileID: 773805181}
-  - component: {fileID: 773805180}
   - component: {fileID: 773805179}
   m_Layer: 0
   m_Name: 65. CounterShaft
@@ -9717,19 +9244,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &773805180
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 773805177}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &773805181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9822,7 +9336,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &773805186
 MeshRenderer:
@@ -9885,7 +9399,6 @@ GameObject:
   - component: {fileID: 805388644}
   - component: {fileID: 805388643}
   - component: {fileID: 805388642}
-  - component: {fileID: 805388641}
   - component: {fileID: 805388640}
   m_Layer: 0
   m_Name: 41. Seal
@@ -9928,19 +9441,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &805388641
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 805388638}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &805388642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10033,8 +9533,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: 0, y: 0.000000059604645, z: 0}
 --- !u!23 &805388647
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10096,7 +9596,6 @@ GameObject:
   - component: {fileID: 816028259}
   - component: {fileID: 816028258}
   - component: {fileID: 816028257}
-  - component: {fileID: 816028256}
   - component: {fileID: 816028255}
   m_Layer: 0
   m_Name: 32. Washer
@@ -10139,19 +9638,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &816028256
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816028253}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &816028257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10244,7 +9730,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &816028262
 MeshRenderer:
@@ -10416,7 +9902,6 @@ GameObject:
   - component: {fileID: 876827378}
   - component: {fileID: 876827377}
   - component: {fileID: 876827376}
-  - component: {fileID: 876827375}
   - component: {fileID: 876827374}
   m_Layer: 0
   m_Name: 63. SnapRing
@@ -10459,19 +9944,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &876827375
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876827372}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &876827376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10564,7 +10036,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &876827381
 MeshRenderer:
@@ -10627,7 +10099,6 @@ GameObject:
   - component: {fileID: 877699340}
   - component: {fileID: 877699339}
   - component: {fileID: 877699338}
-  - component: {fileID: 877699337}
   - component: {fileID: 877699336}
   m_Layer: 0
   m_Name: 14. Gasket
@@ -10670,19 +10141,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &877699337
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877699334}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &877699338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10775,8 +10233,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.27061215, y: 0.10000002, z: 0.25873142}
+  m_Center: {x: 0.000000014901161, y: 0, z: 0}
 --- !u!23 &877699343
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11081,7 +10539,6 @@ GameObject:
   - component: {fileID: 925341957}
   - component: {fileID: 925341956}
   - component: {fileID: 925341955}
-  - component: {fileID: 925341954}
   - component: {fileID: 925341953}
   m_Layer: 0
   m_Name: 29. Roller
@@ -11124,19 +10581,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &925341954
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 925341951}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &925341955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11229,8 +10673,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: 0, y: -0.0000009536743, z: 0}
 --- !u!23 &925341960
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11292,7 +10736,6 @@ GameObject:
   - component: {fileID: 940767289}
   - component: {fileID: 940767288}
   - component: {fileID: 940767287}
-  - component: {fileID: 940767286}
   - component: {fileID: 940767285}
   m_Layer: 0
   m_Name: '11.Snap_Ring '
@@ -11335,19 +10778,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &940767286
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 940767283}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &940767287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11440,8 +10870,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.20000002, y: 0.1, z: 0.20000006}
+  m_Center: {x: 0.000000011175871, y: 0, z: 0.000000014901161}
 --- !u!23 &940767292
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11503,7 +10933,6 @@ GameObject:
   - component: {fileID: 995443266}
   - component: {fileID: 995443265}
   - component: {fileID: 995443264}
-  - component: {fileID: 995443263}
   - component: {fileID: 995443262}
   m_Layer: 0
   m_Name: 44. Bearing
@@ -11546,19 +10975,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &995443263
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 995443260}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &995443264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11651,8 +11067,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &995443269
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11775,6 +11191,84 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012151302}
   m_Mesh: {fileID: 4300072, guid: 15247e49edd49924cb57dfd0f8a68ef1, type: 3}
+--- !u!1 &1022868636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1022868637}
+  - component: {fileID: 1022868639}
+  - component: {fileID: 1022868638}
+  m_Layer: 0
+  m_Name: EditorHighlightObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1022868637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022868636}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1413743317}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1022868638
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022868636}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 76008b803511a8e4c91d6f9bacc10161, type: 2}
+  - {fileID: 2100000, guid: 2f940703e4a9c494e9fb863341d0e669, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1022868639
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022868636}
+  m_Mesh: {fileID: 4300000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
 --- !u!1 &1039912026
 GameObject:
   m_ObjectHideFlags: 0
@@ -11791,7 +11285,6 @@ GameObject:
   - component: {fileID: 1039912032}
   - component: {fileID: 1039912031}
   - component: {fileID: 1039912030}
-  - component: {fileID: 1039912029}
   - component: {fileID: 1039912028}
   m_Layer: 0
   m_Name: 20. Ring
@@ -11834,19 +11327,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1039912029
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1039912026}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1039912030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11939,8 +11419,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &1039912035
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12002,7 +11482,6 @@ GameObject:
   - component: {fileID: 1066212252}
   - component: {fileID: 1066212251}
   - component: {fileID: 1066212250}
-  - component: {fileID: 1066212249}
   - component: {fileID: 1066212248}
   m_Layer: 0
   m_Name: 3.Spring
@@ -12045,19 +11524,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1066212249
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1066212246}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1066212250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12150,7 +11616,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.1, y: 0.1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1066212255
 MeshRenderer:
@@ -12213,7 +11679,6 @@ GameObject:
   - component: {fileID: 1081824164}
   - component: {fileID: 1081824163}
   - component: {fileID: 1081824162}
-  - component: {fileID: 1081824161}
   - component: {fileID: 1081824160}
   m_Layer: 0
   m_Name: 61. Fork
@@ -12256,19 +11721,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1081824161
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1081824158}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1081824162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12361,8 +11813,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &1081824167
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12424,7 +11876,6 @@ GameObject:
   - component: {fileID: 1115879445}
   - component: {fileID: 1115879444}
   - component: {fileID: 1115879443}
-  - component: {fileID: 1115879442}
   - component: {fileID: 1115879441}
   m_Layer: 0
   m_Name: 15. Extension
@@ -12468,19 +11919,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1115879442
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115879439}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1115879443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12757,7 +12195,6 @@ GameObject:
   - component: {fileID: 1202951172}
   - component: {fileID: 1202951171}
   - component: {fileID: 1202951170}
-  - component: {fileID: 1202951169}
   - component: {fileID: 1202951168}
   m_Layer: 0
   m_Name: 66. Washer
@@ -12800,19 +12237,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1202951169
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202951166}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1202951170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12905,8 +12329,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: -0.0000009536743, z: 0}
 --- !u!23 &1202951175
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12998,7 +12422,6 @@ GameObject:
   - component: {fileID: 1234803249}
   - component: {fileID: 1234803248}
   - component: {fileID: 1234803247}
-  - component: {fileID: 1234803246}
   - component: {fileID: 1234803245}
   m_Layer: 0
   m_Name: 69. Washer
@@ -13041,19 +12464,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1234803246
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234803243}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1234803247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13146,8 +12556,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: 0, y: -0.0000009536743, z: 0}
 --- !u!23 &1234803252
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13475,7 +12885,6 @@ GameObject:
   - component: {fileID: 1271850129}
   - component: {fileID: 1271850128}
   - component: {fileID: 1271850127}
-  - component: {fileID: 1271850126}
   - component: {fileID: 1271850125}
   m_Layer: 0
   m_Name: 34. Washer
@@ -13518,19 +12927,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1271850126
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1271850123}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1271850127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13623,8 +13019,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &1271850132
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13670,6 +13066,84 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271850123}
   m_Mesh: {fileID: 4300100, guid: 15247e49edd49924cb57dfd0f8a68ef1, type: 3}
+--- !u!1 &1279655086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1279655087}
+  - component: {fileID: 1279655089}
+  - component: {fileID: 1279655088}
+  m_Layer: 0
+  m_Name: HighlightObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1279655087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279655086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1413743317}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1279655088
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279655086}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 25ef5ed3597465943ad6a93eaf049e57, type: 2}
+  - {fileID: 2100000, guid: 25ef5ed3597465943ad6a93eaf049e57, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1279655089
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279655086}
+  m_Mesh: {fileID: 4300000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
 --- !u!1 &1322046451
 GameObject:
   m_ObjectHideFlags: 0
@@ -13686,7 +13160,6 @@ GameObject:
   - component: {fileID: 1322046457}
   - component: {fileID: 1322046456}
   - component: {fileID: 1322046455}
-  - component: {fileID: 1322046454}
   - component: {fileID: 1322046453}
   m_Layer: 0
   m_Name: 26. Second_Gear
@@ -13729,19 +13202,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1322046454
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322046451}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1322046455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13834,8 +13294,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &1322046460
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13897,7 +13357,6 @@ GameObject:
   - component: {fileID: 1354699115}
   - component: {fileID: 1354699114}
   - component: {fileID: 1354699113}
-  - component: {fileID: 1354699112}
   - component: {fileID: 1354699111}
   m_Layer: 0
   m_Name: 71. Key
@@ -13940,19 +13399,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1354699112
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1354699109}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1354699113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14045,7 +13491,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1354699118
 MeshRenderer:
@@ -14108,7 +13554,6 @@ GameObject:
   - component: {fileID: 1369454659}
   - component: {fileID: 1369454658}
   - component: {fileID: 1369454657}
-  - component: {fileID: 1369454656}
   - component: {fileID: 1369454655}
   m_Layer: 0
   m_Name: 42. Snap_Ring
@@ -14151,19 +13596,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1369454656
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369454653}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1369454657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14256,8 +13688,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &1369454662
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14319,7 +13751,6 @@ GameObject:
   - component: {fileID: 1373593988}
   - component: {fileID: 1373593987}
   - component: {fileID: 1373593986}
-  - component: {fileID: 1373593985}
   - component: {fileID: 1373593984}
   m_Layer: 0
   m_Name: 6.Spring
@@ -14362,19 +13793,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1373593985
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373593982}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1373593986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14467,7 +13885,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.1, y: 0.1, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1373593991
 MeshRenderer:
@@ -14591,6 +14009,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397227174}
   m_Mesh: {fileID: 4300076, guid: 15247e49edd49924cb57dfd0f8a68ef1, type: 3}
+--- !u!1 &1413743316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1413743317}
+  m_Layer: 0
+  m_Name: HighlightContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1413743317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413743316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1279655087}
+  - {fileID: 1022868637}
+  m_Father: {fileID: 1755681586}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1432483774
 GameObject:
   m_ObjectHideFlags: 0
@@ -14607,7 +14057,6 @@ GameObject:
   - component: {fileID: 1432483780}
   - component: {fileID: 1432483779}
   - component: {fileID: 1432483778}
-  - component: {fileID: 1432483777}
   - component: {fileID: 1432483776}
   m_Layer: 0
   m_Name: 62. Spring
@@ -14650,19 +14099,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1432483777
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432483774}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1432483778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14755,7 +14191,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1432483783
 MeshRenderer:
@@ -14851,7 +14287,6 @@ GameObject:
   - component: {fileID: 1455880452}
   - component: {fileID: 1455880451}
   - component: {fileID: 1455880450}
-  - component: {fileID: 1455880449}
   - component: {fileID: 1455880448}
   m_Layer: 0
   m_Name: 45. Drive_Pinion
@@ -14894,19 +14329,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1455880449
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1455880446}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1455880450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14999,7 +14421,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1455880455
 MeshRenderer:
@@ -15151,7 +14573,6 @@ GameObject:
   - component: {fileID: 1520303455}
   - component: {fileID: 1520303454}
   - component: {fileID: 1520303453}
-  - component: {fileID: 1520303452}
   - component: {fileID: 1520303451}
   m_Layer: 0
   m_Name: 67. Roller
@@ -15194,19 +14615,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1520303452
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520303449}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1520303453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15299,7 +14707,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1520303458
 MeshRenderer:
@@ -15346,6 +14754,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520303449}
   m_Mesh: {fileID: 4300100, guid: 15247e49edd49924cb57dfd0f8a68ef1, type: 3}
+--- !u!1 &1550091040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1550091041}
+  m_Layer: 0
+  m_Name: HighlightContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1550091041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550091040}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1963042444}
+  - {fileID: 1682472413}
+  m_Father: {fileID: 331100808}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1554926882
 GameObject:
   m_ObjectHideFlags: 0
@@ -15516,7 +14956,6 @@ GameObject:
   - component: {fileID: 1643676761}
   - component: {fileID: 1643676760}
   - component: {fileID: 1643676759}
-  - component: {fileID: 1643676758}
   - component: {fileID: 1643676757}
   m_Layer: 0
   m_Name: 72. Washer
@@ -15559,19 +14998,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1643676758
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643676755}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1643676759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15664,7 +15090,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1643676764
 MeshRenderer:
@@ -15739,7 +15165,6 @@ GameObject:
   - component: {fileID: 1658416882}
   - component: {fileID: 1658416881}
   - component: {fileID: 1658416880}
-  - component: {fileID: 1658416879}
   - component: {fileID: 1658416878}
   m_Layer: 0
   m_Name: 50. Fork
@@ -15782,19 +15207,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1658416879
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1658416876}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1658416880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15887,7 +15299,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1658416885
 MeshRenderer:
@@ -16068,6 +15480,84 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
+--- !u!1 &1682472412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1682472413}
+  - component: {fileID: 1682472415}
+  - component: {fileID: 1682472414}
+  m_Layer: 0
+  m_Name: EditorHighlightObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1682472413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682472412}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1550091041}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1682472414
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682472412}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 76008b803511a8e4c91d6f9bacc10161, type: 2}
+  - {fileID: 2100000, guid: 2f940703e4a9c494e9fb863341d0e669, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1682472415
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682472412}
+  m_Mesh: {fileID: 4300000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
 --- !u!1 &1688126322
 GameObject:
   m_ObjectHideFlags: 0
@@ -16116,11 +15606,10 @@ GameObject:
   - component: {fileID: 1701046199}
   - component: {fileID: 1701046198}
   - component: {fileID: 1701046197}
-  - component: {fileID: 1701046196}
   - component: {fileID: 1701046195}
   m_Layer: 0
   m_Name: 9 Reverse_Gear
-  m_TagString: test
+  m_TagString: ReverseGear
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16135,8 +15624,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.354, y: 0.45258254, z: 8.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 597484366}
+  m_Children: []
   m_Father: {fileID: 2081825257}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16160,19 +15648,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1701046196
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1701046193}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1701046197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16265,7 +15740,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.10617485, y: 0.047686305, z: 0.10617484}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1701046202
 MeshRenderer:
@@ -16284,7 +15759,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: d921d58463e1b1947b93276dc5d60979, type: 2}
+  - {fileID: 2100000, guid: 2f940703e4a9c494e9fb863341d0e669, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16311,7 +15787,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701046193}
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
 --- !u!1 &1701997633
 GameObject:
   m_ObjectHideFlags: 0
@@ -16619,7 +16095,6 @@ GameObject:
   - component: {fileID: 1738954434}
   - component: {fileID: 1738954433}
   - component: {fileID: 1738954432}
-  - component: {fileID: 1738954431}
   - component: {fileID: 1738954430}
   m_Layer: 0
   m_Name: 2.Ring
@@ -16662,19 +16137,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1738954431
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738954428}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1738954432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16767,7 +16229,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.2516472, y: 0.2036378, z: 0.2516472}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1738954437
 MeshRenderer:
@@ -16830,7 +16292,6 @@ GameObject:
   - component: {fileID: 1745970968}
   - component: {fileID: 1745970967}
   - component: {fileID: 1745970966}
-  - component: {fileID: 1745970965}
   - component: {fileID: 1745970964}
   m_Layer: 0
   m_Name: 47. Snap Ring
@@ -16873,19 +16334,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1745970965
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1745970962}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1745970966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16978,7 +16426,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1745970971
 MeshRenderer:
@@ -17041,7 +16489,6 @@ GameObject:
   - component: {fileID: 1749636497}
   - component: {fileID: 1749636496}
   - component: {fileID: 1749636495}
-  - component: {fileID: 1749636494}
   - component: {fileID: 1749636493}
   m_Layer: 0
   m_Name: 70. Shaft
@@ -17084,19 +16531,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1749636494
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1749636491}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1749636495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17189,8 +16623,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: -0.0000009536743, z: 0}
 --- !u!23 &1749636500
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17330,6 +16764,128 @@ MonoBehaviour:
   capsuleTopOffset: 0.2
   capsuleBottomOffset: 0.5
   capsuleRadius: 0.5
+--- !u!1 &1755681580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1755681586}
+  - component: {fileID: 1755681585}
+  - component: {fileID: 1755681584}
+  - component: {fileID: 1755681583}
+  - component: {fileID: 1755681582}
+  - component: {fileID: 1755681581}
+  m_Layer: 0
+  m_Name: Highlight (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1755681581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755681580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed2aa1a29b92ca4f84a26a5f6e9218b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  operation: 1
+  checkType: 1
+  identifiers:
+  - ReverseGear
+--- !u!114 &1755681582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755681580}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dc366c4ab9b63a4dad97fc1290dc00a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  unhighlightOnDisable: 1
+  emissionDarken: 50
+  customMaterial: {fileID: 0}
+--- !u!114 &1755681583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755681580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa31935730602684ca098655260a7c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highlightObjectPrefab: {fileID: 100000, guid: b17dfe7065f4261408c0698fdf4f6c47,
+    type: 3}
+  snapType: 0
+  snapDuration: 0.3
+  applyScalingOnSnap: 1
+  cloneNewOnUnsnap: 0
+  highlightColor: {r: 1, g: 0, b: 0, a: 0}
+  validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
+  highlightAlwaysActive: 1
+  validObjectListPolicy: {fileID: 1755681581}
+  displayDropZoneInEditor: 1
+  defaultSnappedInteractableObject: {fileID: 0}
+  defaultSnappedObject: {fileID: 0}
+--- !u!54 &1755681584
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755681580}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1755681585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755681580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.025, y: 0.025, z: 0.025}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1755681586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1755681580}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.89, y: 0.68, z: 6.592}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1413743317}
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1777904394 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4544639141449713062, guid: 5246f910ccd7fab48ad65b7680d559e6,
@@ -17358,7 +16914,6 @@ GameObject:
   - component: {fileID: 1801303167}
   - component: {fileID: 1801303166}
   - component: {fileID: 1801303165}
-  - component: {fileID: 1801303164}
   - component: {fileID: 1801303163}
   m_Layer: 0
   m_Name: 12.Snap_Ring
@@ -17401,19 +16956,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1801303164
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1801303161}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1801303165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17506,8 +17048,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.20000002, y: 0.1, z: 0.20000006}
+  m_Center: {x: 0.000000011175871, y: 0, z: 0.000000014901161}
 --- !u!23 &1801303170
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17569,7 +17111,6 @@ GameObject:
   - component: {fileID: 1815015282}
   - component: {fileID: 1815015281}
   - component: {fileID: 1815015280}
-  - component: {fileID: 1815015279}
   - component: {fileID: 1815015278}
   m_Layer: 0
   m_Name: 48. Case
@@ -17612,19 +17153,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1815015279
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1815015276}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1815015280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17717,8 +17245,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0, z: 0}
 --- !u!23 &1815015285
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17780,7 +17308,6 @@ GameObject:
   - component: {fileID: 1824465311}
   - component: {fileID: 1824465310}
   - component: {fileID: 1824465309}
-  - component: {fileID: 1824465308}
   - component: {fileID: 1824465307}
   m_Layer: 0
   m_Name: 57. Bolt
@@ -17823,19 +17350,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1824465308
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824465305}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1824465309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17928,7 +17442,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1824465314
 MeshRenderer:
@@ -17991,7 +17505,6 @@ GameObject:
   - component: {fileID: 1828680423}
   - component: {fileID: 1828680422}
   - component: {fileID: 1828680421}
-  - component: {fileID: 1828680420}
   - component: {fileID: 1828680419}
   m_Layer: 0
   m_Name: 19. Snap_Ring
@@ -18034,19 +17547,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1828680420
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1828680417}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1828680421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18139,8 +17639,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: -0.000000029802322, z: 0}
 --- !u!23 &1828680426
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18202,7 +17702,6 @@ GameObject:
   - component: {fileID: 1832090042}
   - component: {fileID: 1832090041}
   - component: {fileID: 1832090040}
-  - component: {fileID: 1832090039}
   - component: {fileID: 1832090038}
   m_Layer: 0
   m_Name: 7.Snap_Ring
@@ -18245,19 +17744,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1832090039
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832090036}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1832090040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18350,8 +17836,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.20000002, y: 0.1, z: 0.20000006}
+  m_Center: {x: 0.000000011175871, y: 0, z: 0.000000014901161}
 --- !u!23 &1832090045
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18490,7 +17976,6 @@ GameObject:
   - component: {fileID: 1859346637}
   - component: {fileID: 1859346636}
   - component: {fileID: 1859346635}
-  - component: {fileID: 1859346634}
   - component: {fileID: 1859346633}
   m_Layer: 0
   m_Name: 55. Switch
@@ -18533,19 +18018,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1859346634
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1859346631}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1859346635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18638,7 +18110,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1859346640
 MeshRenderer:
@@ -18787,7 +18259,6 @@ GameObject:
   - component: {fileID: 1880948933}
   - component: {fileID: 1880948932}
   - component: {fileID: 1880948931}
-  - component: {fileID: 1880948930}
   - component: {fileID: 1880948929}
   m_Layer: 0
   m_Name: 59. Lever_Interlock
@@ -18830,19 +18301,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1880948930
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1880948927}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1880948931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18935,7 +18393,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1880948936
 MeshRenderer:
@@ -19083,7 +18541,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885593047}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -19151,7 +18609,6 @@ GameObject:
   - component: {fileID: 1899686310}
   - component: {fileID: 1899686309}
   - component: {fileID: 1899686308}
-  - component: {fileID: 1899686307}
   - component: {fileID: 1899686306}
   m_Layer: 0
   m_Name: 56. Lever
@@ -19194,19 +18651,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1899686307
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1899686304}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1899686308
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19299,7 +18743,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1899686313
 MeshRenderer:
@@ -19362,7 +18806,6 @@ GameObject:
   - component: {fileID: 1929610331}
   - component: {fileID: 1929610330}
   - component: {fileID: 1929610329}
-  - component: {fileID: 1929610328}
   - component: {fileID: 1929610327}
   m_Layer: 0
   m_Name: 28. Washer
@@ -19405,19 +18848,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1929610328
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929610325}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1929610329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19510,8 +18940,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: -0.0000009536743, z: 0}
 --- !u!23 &1929610334
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19830,7 +19260,6 @@ GameObject:
   - component: {fileID: 1946024468}
   - component: {fileID: 1946024467}
   - component: {fileID: 1946024466}
-  - component: {fileID: 1946024465}
   - component: {fileID: 1946024464}
   m_Layer: 0
   m_Name: 22. Sleeve
@@ -19873,19 +19302,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1946024465
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1946024462}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1946024466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19978,8 +19394,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: 0, y: 0.00000023841858, z: 0}
 --- !u!23 &1946024471
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20025,6 +19441,84 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946024462}
   m_Mesh: {fileID: 4300100, guid: 15247e49edd49924cb57dfd0f8a68ef1, type: 3}
+--- !u!1 &1963042443
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1963042444}
+  - component: {fileID: 1963042446}
+  - component: {fileID: 1963042445}
+  m_Layer: 0
+  m_Name: HighlightObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1963042444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963042443}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1550091041}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1963042445
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963042443}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d921d58463e1b1947b93276dc5d60979, type: 2}
+  - {fileID: 2100000, guid: 2f940703e4a9c494e9fb863341d0e669, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1963042446
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963042443}
+  m_Mesh: {fileID: 4300000, guid: b17dfe7065f4261408c0698fdf4f6c47, type: 3}
 --- !u!1 &1990547050
 GameObject:
   m_ObjectHideFlags: 0
@@ -20118,7 +19612,6 @@ GameObject:
   - component: {fileID: 1997619317}
   - component: {fileID: 1997619316}
   - component: {fileID: 1997619315}
-  - component: {fileID: 1997619314}
   - component: {fileID: 1997619313}
   m_Layer: 0
   m_Name: 51. Lever
@@ -20161,19 +19654,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &1997619314
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1997619311}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1997619315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20266,7 +19746,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1997619320
 MeshRenderer:
@@ -21188,7 +20668,6 @@ GameObject:
   - component: {fileID: 2067020404}
   - component: {fileID: 2067020403}
   - component: {fileID: 2067020402}
-  - component: {fileID: 2067020401}
   - component: {fileID: 2067020400}
   m_Layer: 0
   m_Name: 39. Retainer
@@ -21231,19 +20710,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &2067020401
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2067020398}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2067020402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21336,8 +20802,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: -0.000000059604645, z: 0}
 --- !u!23 &2067020407
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21399,7 +20865,6 @@ GameObject:
   - component: {fileID: 2069278884}
   - component: {fileID: 2069278883}
   - component: {fileID: 2069278882}
-  - component: {fileID: 2069278881}
   - component: {fileID: 2069278880}
   m_Layer: 0
   m_Name: 49. Plug_Drain
@@ -21442,19 +20907,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &2069278881
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069278878}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2069278882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21547,7 +20999,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2069278887
 MeshRenderer:
@@ -21721,7 +21173,6 @@ GameObject:
   - component: {fileID: 2093003692}
   - component: {fileID: 2093003691}
   - component: {fileID: 2093003690}
-  - component: {fileID: 2093003689}
   - component: {fileID: 2093003688}
   m_Layer: 0
   m_Name: 46. Roller
@@ -21764,19 +21215,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &2093003689
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2093003686}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2093003690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21869,8 +21307,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0.00000023841858, z: 0}
 --- !u!23 &2093003695
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21932,7 +21370,6 @@ GameObject:
   - component: {fileID: 2101484501}
   - component: {fileID: 2101484500}
   - component: {fileID: 2101484499}
-  - component: {fileID: 2101484498}
   - component: {fileID: 2101484497}
   m_Layer: 0
   m_Name: 18. Yoke
@@ -21975,19 +21412,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 1
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!65 &2101484498
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2101484495}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2101484499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22080,8 +21504,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0.24350435, y: 0.12047711, z: 0.2491066}
+  m_Center: {x: -0.000000059604645, y: 0.0000009536743, z: 0}
 --- !u!23 &2101484504
 MeshRenderer:
   m_ObjectHideFlags: 0
