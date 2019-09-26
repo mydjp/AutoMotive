@@ -16,6 +16,9 @@ TagManager:
   - Testee
   - testaroo
   - ReverseGear
+  - FxTemporaire
+  - projectile
+  - TeleportIgnore
   layers:
   - Default
   - TransparentFX
