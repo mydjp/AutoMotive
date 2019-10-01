@@ -19,6 +19,9 @@ TagManager:
   - FxTemporaire
   - projectile
   - TeleportIgnore
+  - GearClutch
+  - Ring
+  - FirstGear
   layers:
   - Default
   - TransparentFX
@@ -30,7 +33,7 @@ TagManager:
   - 
   - Object
   - Floor
-  - 
+  - Stopper
   - 
   - 
   - 
