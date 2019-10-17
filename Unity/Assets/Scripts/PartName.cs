@@ -12,6 +12,7 @@ public class PartName : MonoBehaviour
         partNameText.SetActive(false);
     }
 
+    
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
