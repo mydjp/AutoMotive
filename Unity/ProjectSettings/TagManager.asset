@@ -23,6 +23,11 @@ TagManager:
   - Ring
   - FirstGear
   - SecondGear
+  - Shaft_Output
+  - CounterShaft
+  - Drive_Pinion
+  - Sleeve_1
+  - Sleeve_2
   layers:
   - Default
   - TransparentFX
@@ -35,7 +40,7 @@ TagManager:
   - Object
   - Floor
   - Stopper
-  - 
+  - Labels
   - 
   - 
   - 
