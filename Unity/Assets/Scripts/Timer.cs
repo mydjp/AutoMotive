@@ -13,6 +13,7 @@ public class Timer : MonoBehaviour
     private float stopTime;
     private float timerTime;
 
+
     private bool isRunning = false;
 
     // Start is called before the first frame update
