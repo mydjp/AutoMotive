@@ -1,0 +1,22 @@
+needs to be done
+Sleeve 22
+SLeeve 4
+Second Gear					Jonny
+Thirds Gear
+Shaft
+CounterShaft
+DrivePinion
+
+
+Lever
+Fork
+Extension Cover				Daniel
+Case(NotDoneYet)
+HousingGasket
+
+
+DOne
+Ring
+First Gear
+Gear Clutch
+Reverse Gear
