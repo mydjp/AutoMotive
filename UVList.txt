@@ -1,10 +1,7 @@
-needs to be done
-Sleeve 22
-SLeeve 4
-Second Gear					Jonny
-Thirds Gear
-Shaft
-CounterShaft
+needs to be done					
+
+
+				Jonny
 DrivePinion
 
 
@@ -15,8 +12,14 @@ Case(NotDoneYet)
 HousingGasket
 
 
-DOne
+Done
 Ring
 First Gear
 Gear Clutch
 Reverse Gear
+Sleeve 22
+Sleeve 4
+Second Gear
+Third Gear
+Shaft
+CounterShaft
