@@ -17,9 +17,34 @@ Ring
 First Gear
 Gear Clutch
 Reverse Gear
+<<<<<<< Updated upstream
 Sleeve 22
 Sleeve 4
 Second Gear
 Third Gear
 Shaft
 CounterShaft
+=======
+
+
+Daniel
+Ring
+Sleeve 22
+Sleeve 4
+Fork
+Extension Cover
+Case
+Housing Gasket
+
+
+Jonny
+First Gear
+Second Gear
+Third Gear
+Reverse Gear
+Shaft
+DrivePinion
+Gear Clutch
+Counter Shaft
+
+>>>>>>> Stashed changes
