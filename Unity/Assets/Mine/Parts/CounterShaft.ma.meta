@@ -8,13 +8,8 @@ ModelImporter:
     2100000: lambert1
     2300000: //RootNode
     3300000: //RootNode
-    4300000: CounterShaft
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 2f940703e4a9c494e9fb863341d0e669, type: 2}
+    4300000: Counter_Shaft
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

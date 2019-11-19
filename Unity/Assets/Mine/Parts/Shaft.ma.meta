@@ -3,18 +3,45 @@ guid: 2da3bdf228e9b2e4e997e550a51951f6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: blinn1
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Shaft
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: blinn1
-    second: {fileID: 2100000, guid: 2f940703e4a9c494e9fb863341d0e669, type: 2}
+    100000: polySurface276
+    100002: polySurface277
+    100004: polySurface278
+    100006: polySurface279
+    100008: polySurface280
+    100010: polySurface281
+    100012: polySurface282
+    100014: //RootNode
+    100016: Shaft1
+    100018: Third_Gear1
+    100020: transform1
+    100022: transform2
+    100024: transform3
+    100026: transform4
+    100028: transform5
+    100030: transform6
+    100032: transform7
+    400000: polySurface276
+    400002: polySurface277
+    400004: polySurface278
+    400006: polySurface279
+    400008: polySurface280
+    400010: polySurface281
+    400012: polySurface282
+    400014: //RootNode
+    400016: Shaft1
+    400018: Third_Gear1
+    400020: transform1
+    400022: transform2
+    400024: transform3
+    400026: transform4
+    400028: transform5
+    400030: transform6
+    400032: transform7
+    2100000: lambert1
+    2300000: Shaft1
+    3300000: Shaft1
+    4300000: Shaft1
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
