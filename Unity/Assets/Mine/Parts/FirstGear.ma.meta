@@ -5,16 +5,11 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: blinn1
+    2100000: lambert1
     2300000: //RootNode
     3300000: //RootNode
-    4300000: FirstGear
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: blinn1
-    second: {fileID: 2100000, guid: 2f940703e4a9c494e9fb863341d0e669, type: 2}
+    4300000: First_Gear
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
