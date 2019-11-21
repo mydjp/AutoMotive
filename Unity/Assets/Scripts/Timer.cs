@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; 
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -40,10 +41,12 @@ public class Timer : MonoBehaviour
     }
 
     public void TimerReset()
-    {
+    {    
         print("RESET");
         timerMinutes.text = timerSeconds.text = timerMilliSeconds.text = "00";
     }
+
+  
 
     private void Update()
     {
