@@ -19,13 +19,19 @@ public class Menu_Manager : MonoBehaviour
     // Update is called once per frame
     public void Menu()
     {
+        print("Menu Button Pressed");
         menu.SetActive(false);
         subMenu.SetActive(true);
     }
-    
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("Level_1");
+    }
+
     public void QuitMenu()
     {
-        SceneManager.LoadScene("Start_Menu_test"); 
+        SceneManager.LoadScene("Main_Menu"); 
     }
     
 
