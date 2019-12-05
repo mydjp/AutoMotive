@@ -3,18 +3,15 @@ guid: 3143bc0255c588f4894618ce103410aa
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
+    100000: polySurface22
+    100002: //RootNode
+    400000: polySurface22
+    400002: //RootNode
     2100000: lambert1
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Ring
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: d921d58463e1b1947b93276dc5d60979, type: 2}
+    2300000: polySurface22
+    3300000: polySurface22
+    4300000: polySurface22
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
