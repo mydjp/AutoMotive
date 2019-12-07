@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d0a16281fcafd3c49abe7ca2c34a5136
+guid: 4099fcec17f3d85469409724ff81b607
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,13 +8,13 @@ ModelImporter:
     2100000: lambert1
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Output_Shaft
+    4300000: Gear_Clutch
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert1
-    second: {fileID: 2100000, guid: 693e685f47ce69d4894374caea6d3ffb, type: 2}
+    second: {fileID: 2100000, guid: 7ebd6ee82090e5e4caaf59711580cd02, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

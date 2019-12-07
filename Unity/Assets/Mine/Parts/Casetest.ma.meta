@@ -1,14 +1,18 @@
 fileFormatVersion: 2
-guid: d0a16281fcafd3c49abe7ca2c34a5136
+guid: 08d00dfe2663e744eab7e7f1fafedf69
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: polySurface157
+    100004: transform1
     400000: //RootNode
+    400002: polySurface157
+    400004: transform1
     2100000: lambert1
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Output_Shaft
+    2300000: polySurface157
+    3300000: polySurface157
+    4300000: polySurface157
   externalObjects:
   - first:
       type: UnityEngine:Material

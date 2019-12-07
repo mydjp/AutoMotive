@@ -1,20 +1,27 @@
 fileFormatVersion: 2
-guid: d0a16281fcafd3c49abe7ca2c34a5136
+guid: 1e0dd3098bb837c45b4dd1813b51ad1d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
+    100000: Drivepinion_locator2
+    100002: Drivepinion_pCylinder3
+    100004: Drivepinion_pCylinder4
+    100006: Drivepinion_transform1
+    100008: Drivepinion_transform2
+    100010: //RootNode
+    100012: Sleeve_4_Sleeve_5
+    400000: Drivepinion_locator2
+    400002: Drivepinion_pCylinder3
+    400004: Drivepinion_pCylinder4
+    400006: Drivepinion_transform1
+    400008: Drivepinion_transform2
+    400010: //RootNode
+    400012: Sleeve_4_Sleeve_5
     2100000: lambert1
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Output_Shaft
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 693e685f47ce69d4894374caea6d3ffb, type: 2}
+    2300000: Sleeve_4_Sleeve_5
+    3300000: Sleeve_4_Sleeve_5
+    4300000: Sleeve_4_Sleeve_5
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
