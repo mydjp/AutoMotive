@@ -28,6 +28,10 @@ TagManager:
   - Drive_Pinion
   - Sleeve_1
   - Sleeve_2
+  - FullShaft
+  - Extension
+  - Gasket
+  - Case
   layers:
   - Default
   - TransparentFX
