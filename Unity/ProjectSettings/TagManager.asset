@@ -31,6 +31,7 @@ TagManager:
   - FullShaft
   - Extension
   - Gasket
+  - Case
   layers:
   - Default
   - TransparentFX
