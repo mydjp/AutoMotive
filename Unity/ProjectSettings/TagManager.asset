@@ -32,6 +32,11 @@ TagManager:
   - Extension
   - Gasket
   - Case
+  - RingFBX
+  - RingOBJ
+  - RingMA
+  - GearClutchOBJ
+  - GearClutchFBX
   layers:
   - Default
   - TransparentFX
