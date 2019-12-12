@@ -12,9 +12,6 @@ ModelImporter:
     100012: polySurface1
     100014: polySurface2
     100016: polySurface3
-    100018: polySurface4
-    100020: transform1
-    100022: transform2
     400000: //RootNode
     400002: pCube1
     400004: pCube13
@@ -24,12 +21,9 @@ ModelImporter:
     400012: polySurface1
     400014: polySurface2
     400016: polySurface3
-    400018: polySurface4
-    400020: transform1
-    400022: transform2
-    2100000: lambert1
-    2100002: lambert5
-    2100004: lambert4
+    2100000: lambert6
+    2100002: lambert4
+    2100004: lambert1
     2100006: lambert3
     2300000: pCube13
     2300002: pCube2
@@ -37,21 +31,18 @@ ModelImporter:
     2300006: pCube4
     2300008: polySurface1
     2300010: polySurface3
-    2300012: polySurface4
     3300000: pCube13
     3300002: pCube2
     3300004: pCube3
     3300006: pCube4
     3300008: polySurface1
     3300010: polySurface3
-    3300012: polySurface4
     4300000: polySurface1
     4300002: polySurface3
-    4300004: polySurface4
-    4300006: pCube2
-    4300008: pCube3
-    4300010: pCube4
-    4300012: pCube13
+    4300004: pCube2
+    4300006: pCube3
+    4300008: pCube4
+    4300010: pCube13
   externalObjects: {}
   materials:
     importMaterials: 1
