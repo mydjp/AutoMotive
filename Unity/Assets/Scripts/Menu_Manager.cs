@@ -26,12 +26,12 @@ public class Menu_Manager : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene("Level_1");
+        SceneManager.LoadScene("Final_Game_V2");
     }
 
     public void QuitMenu()
     {
-        SceneManager.LoadScene("Main_Menu"); 
+        SceneManager.LoadScene("Start_Menu"); 
     }
     
 

@@ -2924,7 +2924,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 118678656}
@@ -4305,7 +4305,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 1}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 151903499}
@@ -9549,7 +9549,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 1}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0, g: 0.13428664, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 382304281}
@@ -10039,7 +10039,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 1}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0, g: 0.13428664, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 389051052}
@@ -14666,7 +14666,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 609740448}
@@ -15200,7 +15200,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 1}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 644922587}
@@ -15263,7 +15263,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 657363378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1157329285}
@@ -15272,7 +15272,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -65, y: -12}
+  m_AnchoredPosition: {x: -65, y: -43.899994}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &657363380
@@ -17394,7 +17394,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 1}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 792515095}
@@ -24055,7 +24055,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 1126953579}
@@ -24621,7 +24621,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 1169956330}
@@ -27249,7 +27249,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 1320026617}
@@ -28105,6 +28105,7 @@ RectTransform:
   - {fileID: 355715515}
   - {fileID: 1468686247}
   - {fileID: 925113566}
+  - {fileID: 1604528629}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
@@ -29654,7 +29655,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 1421717567}
@@ -30861,7 +30862,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 1}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 1512876582}
@@ -31590,7 +31591,7 @@ MonoBehaviour:
   snapDuration: 2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 1552053397}
@@ -31875,7 +31876,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 1}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0, g: 0.13428664, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 1565444307}
@@ -32248,6 +32249,57 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ceeca3ceaf52d1489aa548a28a2b8dd, type: 3}
+--- !u!1 &1604528628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1604528629}
+  - component: {fileID: 1604528630}
+  m_Layer: 5
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1604528629
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604528628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1334808259}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1604528630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604528628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
 --- !u!1 &1606899848
 GameObject:
   m_ObjectHideFlags: 0
@@ -36037,7 +36089,7 @@ MonoBehaviour:
   snapDuration: 0.2
   applyScalingOnSnap: 1
   cloneNewOnUnsnap: 0
-  highlightColor: {r: 1, g: 0, b: 0, a: 0}
+  highlightColor: {r: 0.23682988, g: 1, b: 0, a: 1}
   validHighlightColor: {r: 0.036264896, g: 0, b: 1, a: 0}
   highlightAlwaysActive: 0
   validObjectListPolicy: {fileID: 1755681581}
@@ -36278,7 +36330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -65, y: 55}
+  m_AnchoredPosition: {x: -65, y: 23.1}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1774030886
@@ -42157,6 +42209,31 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4544639140437653448, guid: 5246f910ccd7fab48ad65b7680d559e6,
+        type: 3}
+      propertyPath: interactWithObjects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544639140437653448, guid: 5246f910ccd7fab48ad65b7680d559e6,
+        type: 3}
+      propertyPath: grabToPointerTip
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544639140693119170, guid: 5246f910ccd7fab48ad65b7680d559e6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544639141196881039, guid: 5246f910ccd7fab48ad65b7680d559e6,
+        type: 3}
+      propertyPath: interactWithObjects
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4544639141196881039, guid: 5246f910ccd7fab48ad65b7680d559e6,
+        type: 3}
+      propertyPath: grabToPointerTip
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4546310693311417634, guid: 5246f910ccd7fab48ad65b7680d559e6,
         type: 3}
       propertyPath: m_IsActive
@@ -43775,7 +43852,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -65, y: 22}
+  m_AnchoredPosition: {x: -65, y: -9.899994}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2129563916
@@ -44972,21 +45049,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4574023590364794741, guid: a75dd3f11bf8b3343a03a4ed0162da19,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4574023591053124594, guid: a75dd3f11bf8b3343a03a4ed0162da19,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4574023591533472884, guid: a75dd3f11bf8b3343a03a4ed0162da19,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4574023590182641155, guid: a75dd3f11bf8b3343a03a4ed0162da19,
         type: 3}
       propertyPath: m_IsActive
@@ -45002,12 +45064,27 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4574023590364794741, guid: a75dd3f11bf8b3343a03a4ed0162da19,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4574023591570399972, guid: a75dd3f11bf8b3343a03a4ed0162da19,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4574023591053124594, guid: a75dd3f11bf8b3343a03a4ed0162da19,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4574023591442299308, guid: a75dd3f11bf8b3343a03a4ed0162da19,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574023591533472884, guid: a75dd3f11bf8b3343a03a4ed0162da19,
         type: 3}
       propertyPath: m_IsActive
       value: 0
