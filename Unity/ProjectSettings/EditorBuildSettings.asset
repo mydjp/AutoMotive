@@ -17,7 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Start_Menu.unity
     guid: b867dc7f467de504daad5964cb7b6625
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final_Game_V3.unity
     guid: eeff6b94e4a811b4f992906d76c9c858
+  - enabled: 1
+    path: Assets/Scenes/Final_Game_V4_Test_03.unity
+    guid: db0c099876500bc4f95c2281e4742c02
   m_configObjects: {}

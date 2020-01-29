@@ -26,7 +26,7 @@ public class Menu_Manager : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene("Final_Game_V3");
+        SceneManager.LoadScene("Final_Game_V4_Test_03");
     }
 
     public void QuitMenu()
