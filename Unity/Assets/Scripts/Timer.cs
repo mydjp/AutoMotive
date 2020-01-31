@@ -14,6 +14,8 @@ public class Timer : MonoBehaviour
     private float stopTime;
     private float timerTime;
 
+    public GameObject congrats; 
+
 
     private bool isRunning = false;
 
@@ -61,6 +63,12 @@ public class Timer : MonoBehaviour
             timerMinutes.text = (minutesInt < 10) ? "0" + minutesInt : minutesInt.ToString();
             timerSeconds.text = (secondsInt < 10) ? "0" + secondsInt : secondsInt.ToString();
             timerMilliSeconds.text = (milliSecondsInt < 10) ? "0" + milliSecondsInt : milliSecondsInt.ToString();
+        }
+
+       if (congrats.activeInHierarchy)
+        {
+            Debug.Log("TIMER STOPPED");
+            TimerStop(); 
         }
     }
 }

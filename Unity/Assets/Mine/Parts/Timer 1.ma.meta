@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a1ac5d24d42306d4b91b543ba65247e8
+guid: f1a6675021989dc47b63eb8bfc6b0075
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -9,7 +9,12 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Timer
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 30185eee1822d574d932d6197008b518, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
