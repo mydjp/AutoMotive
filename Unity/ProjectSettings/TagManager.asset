@@ -37,6 +37,10 @@ TagManager:
   - RingMA
   - GearClutchOBJ
   - GearClutchFBX
+  - BearingOne
+  - BearingTwo
+  - RingDouble
+  - Retainer
   layers:
   - Default
   - TransparentFX
